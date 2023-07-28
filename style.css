@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: poppins, sans-serif;
+}
+
+video {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  object-fit: cover; /* this will scale the video to fit its container */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.c {
+  width: 1000px;
+  position: relative;
+  height: 200px;
+  background-color: #ffffffd2;
+  z-index: 1;
+  margin: 250px auto;
+}
+h2 {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+input[type="text"] {
+  width: 300px;
+  display: block;
+  height: 25px;
+  margin: 10px 35%;
+  padding: 0px 5px;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 100px;
+  display: block;
+  height: 25px;
+  margin: 0 auto;
+  background-color: #10ff30;
+  border: none;
+}
+p {
+  font-size: 8pt;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+
+input[type="submit"]:hover {
+   
+    background-color: #fdfdfd;
+    border: none;
+  }
+  
+
+input[type="text"]:hover {
+
+    border: none;
+  }
+
+
